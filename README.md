@@ -59,48 +59,49 @@ npm start
 
 ## Project Structure
 
-### client side
+### Client Side:
 client/
-├── .next/ # Next.js build output
-├── public/ # Static assets
-├── src/ # Source files
-│ ├── app/ # App router directory
-│ │ ├── fonts/ # Font files
-│ │ ├── hotel-details/[slug]/[id]/ # Dynamic hotel details route
-│ │ │ ├── page.tsx
-│ │ │ ├── layout.tsx
-│ │ │ └── not-found.tsx
-│ │ ├── components/ # Reusable components
-│ │ ├── globals.css # Global styles
-│ │ └── favicon.ico
-│ └── types/ # TypeScript type definitions
-├── .eslintrc.json # ESLint configuration
-├── .gitignore # Git ignore rules
-├── next.config.ts # Next.js configuration
-├── package.json # Project dependencies and scripts
-├── package-lock.json # Locked dependencies
-├── postcss.config.js # PostCSS configuration
-├── README.md # Project documentation
-├── tailwind.config.ts # Tailwind CSS configuration
-└── tsconfig.json # TypeScript configuration
+├── .next/              # Next.js build output
+├── public/             # Static assets
+├── src/                # Source files
+│   ├── app/            # App router directory
+│   │   ├── fonts/      # Font files
+│   │   ├── hotel-details/[slug]/[id]/ # Dynamic hotel details route
+│   │   ├── page.tsx    # Page component
+│   │   ├── layout.tsx  # Layout component
+│   │   └── not-found.tsx # 404 page component
+│   ├── components/     # Reusable components
+│   └── globals.css     # Global styles
+├── favicon.ico         # Favicon
+├── types/              # TypeScript type definitions
+├── .eslintrc.json      # ESLint configuration
+├── .gitignore          # Git ignore rules
+├── next.config.ts      # Next.js configuration
+├── package.json        # Project dependencies and scripts
+├── package-lock.json   # Locked dependencies
+├── postcss.config.js   # PostCSS configuration
+├── README.md           # Project documentation
+├── tailwind.config.ts  # Tailwind CSS configuration
+└── tsconfig.json       # TypeScript configuration
 
-### server side
+### Server Side:
 server/
-├── data/ # Data directory
-│ └── hotels/ # Hotels data files
-├── src/ # Source files
-│ ├── controllers/ # Route controllers
-│ ├── middleware/ # Custom middleware
-│ ├── models/ # Database models
-│ ├── routes/ # API routes
-│ ├── app.ts # Application entry point
-│ └── tests/ # Test files
-│ └── hotel.test.ts
-├── uploads/ # Upload directory
-│ └── images/ # Hotel images
-├── package.json # Project dependencies and scripts
-├── package-lock.json # Locked dependencies
-└── tsconfig.json # TypeScript configuration
+├── data/               # Data directory
+├── hotels/             # Hotels data files
+├── src/                # Source files
+│   ├── controllers/    # Route controllers
+│   ├── middleware/     # Custom middleware
+│   ├── models/         # Database models
+│   ├── routes/         # API routes
+│   └── app.ts          # Application entry point
+├── tests/              # Test files
+│   ├── hotel.test.ts   # Test cases for hotels
+├── uploads/            # Upload directory
+│   └── images/         # Hotel images
+├── package.json        # Project dependencies and scripts
+├── package-lock.json   # Locked dependencies
+└── tsconfig.json       # TypeScript configuration
+
 
 
 ## API Endpoints
