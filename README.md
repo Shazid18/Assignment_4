@@ -39,7 +39,7 @@ npm install
 
 ## Development
 
-# Start the development server :
+### Start the development server :
 ```bash
 npm run dev
 ```
@@ -47,19 +47,19 @@ The application will be available at http://localhost:3000
 
 ## Build
 
-# Create a production build:
+### Create a production build:
 ```bash
 npm run build
 ```
 
-# Start the production server:
+### Start the production server:
 ```bash
 npm start
 ```
 
 ## Project Structure
 
-# client side
+### client side
 client/
 ├── .next/ # Next.js build output
 ├── public/ # Static assets
@@ -84,7 +84,7 @@ client/
 ├── tailwind.config.ts # Tailwind CSS configuration
 └── tsconfig.json # TypeScript configuration
 
-# server side
+### server side
 server/
 ├── data/ # Data directory
 │ └── hotels/ # Hotels data files
@@ -105,12 +105,12 @@ server/
 
 ## API Endpoints
 
-# Get Hotel Details
+### Get Hotel Details
 ```bash
 GET /api/hotel/{hotel-id}
 ```
 Returns detailed information about a specific hotel.
-# Example URL:
+### Example URL:
 ```bash
 http://localhost:3000/hotel-details/radisson-blu/76512
 ```
