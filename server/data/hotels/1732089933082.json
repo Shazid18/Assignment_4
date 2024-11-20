@@ -1,0 +1,48 @@
+{
+  "title": "Mountain Lodge Retreat",
+  "description": "Nestled in the tranquil mountains, Mountain Lodge Retreat offers a cozy and peaceful escape with 4 bedrooms, 3 bathrooms, and amenities like WiFi, a fireplace, a hot tub, and hiking trails nearby. Ideal for nature lovers, it can accommodate up to 8 guests. Hosted by Olivia Green, this lodge offers a perfect blend of comfort and adventure.",
+  "images": [
+    "/uploads/images/images-1732089996823-816262529.jpg",
+    "/uploads/images/images-1732089996849-855011676.jpg",
+    "/uploads/images/images-1732089996862-509845440.jpg",
+    "/uploads/images/images-1732089996884-887393204.jpg",
+    "/uploads/images/images-1732089996900-135132940.jpg",
+    "/uploads/images/images-1732089996906-765126110.jpg",
+    "/uploads/images/images-1732089996914-651380811.jpg",
+    "/uploads/images/images-1732089996921-327007796.jpg"
+  ],
+  "guestCount": 8,
+  "bedroomCount": 4,
+  "bathroomCount": 3,
+  "amenities": [
+    "wifi",
+    "fireplace",
+    "Hot Tub",
+    "Hiking Trails"
+  ],
+  "host": {
+    "name": "Olivia Green",
+    "email": "olivia@example.com"
+  },
+  "address": "101 Mountain View Drive",
+  "latitude": 39.7392,
+  "longitude": -105.9903,
+  "rooms": [
+    {
+      "roomImage": "https://example.com/images/room1.jpg",
+      "roomTitle": "Mountain View Suite",
+      "bedroomCount": 1,
+      "roomSlug": "mountain-view-suite",
+      "hotelSlug": "mountain-lodge-retreat"
+    },
+    {
+      "roomImage": "https://example.com/images/room2.jpg",
+      "roomTitle": "Forest Cabin Room",
+      "bedroomCount": 2,
+      "roomSlug": "forest-cabin-room",
+      "hotelSlug": "mountain-lodge-retreat"
+    }
+  ],
+  "slug": "mountain-lodge-retreat",
+  "id": "1732089933082"
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Countryside Villa Retreat",
+  "description": "Countryside Villa Retreat offers a luxurious escape in the rolling hills with 4 spacious bedrooms, 3 bathrooms, and top-tier amenities such as WiFi, an infinity pool, outdoor dining, and a private garden. Perfect for families or small groups, it accommodates up to 8 guests. Hosted by Clara Martinez, this villa provides a peaceful retreat with scenic views.",
+  "images": [
+    "/uploads/images/images-1732089807531-92904837.jpg",
+    "/uploads/images/images-1732089807539-510632581.jpg",
+    "/uploads/images/images-1732089807547-955126450.jpg",
+    "/uploads/images/images-1732089807553-72048711.jpg",
+    "/uploads/images/images-1732089807558-985108388.jpg",
+    "/uploads/images/images-1732089807567-986837157.jpg",
+    "/uploads/images/images-1732089807589-290715014.jpg",
+    "/uploads/images/images-1732089807605-530017876.jpg"
+  ],
+  "guestCount": 8,
+  "bedroomCount": 4,
+  "bathroomCount": 3,
+  "amenities": [
+    "wifi",
+    "infinity pool",
+    "Outdoor Dining",
+    "Private Garden"
+  ],
+  "host": {
+    "name": "Clara Martinez",
+    "email": "clara@example.com"
+  },
+  "address": "22 Hillside Drive",
+  "latitude": 36.7783,
+  "longitude": -119.4179,
+  "rooms": [
+    {
+      "roomImage": "https://example.com/images/room1.jpg",
+      "roomTitle": "Garden View Suite",
+      "bedroomCount": 1,
+      "roomSlug": "garden-view-suite",
+      "hotelSlug": "countryside-villa-retreat"
+    },
+    {
+      "roomImage": "https://example.com/images/room2.jpg",
+      "roomTitle": "Sunset Room",
+      "bedroomCount": 2,
+      "roomSlug": "sunset-room",
+      "hotelSlug": "countryside-villa-retreat"
+    }
+  ],
+  "slug": "countryside-villa-retreat",
+  "id": "1732089791195"
+}
